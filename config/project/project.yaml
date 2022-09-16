@@ -1,0 +1,68 @@
+dateModified: 1663321302
+email:
+  fromEmail: ryan.guest@cityfibre.com
+  fromName: 'https://tutorial.craft.site'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    1ac0b098-5dfd-4e6d-a76a-b0b15538bf24: 'Hero Image' # Hero Image
+    1d0d78ab-797a-475b-b9d1-8908d4ae7b50: 'Stories Listing' # Stories Listing
+    1d054408-603a-4e73-bd59-a4795eec0013: 'Content Image' # Content Image
+    8d5103a9-181a-46b7-9671-3c68d6eb3efc: Description # Description
+    12db4a36-98b5-48e8-9013-bcef516f266a: 'https://tutorial.craft.site' # https://tutorial.craft.site
+    22ba079c-f985-488b-b1dc-a762c9eb5b53: Rider # Rider
+    25a382f5-dabb-42ae-8740-7d9b1da82058: Link # Link
+    53f853cf-4b69-4cc2-9c0d-88a9738bb0af: 'Hero title' # Hero title
+    075b54d0-6922-43a2-ab55-b50c4e499f35: Uploads # Uploads
+    90d8146e-d7f8-4903-a659-d887f933009d: 'Rich Text' # Rich Text
+    670eca9f-c12f-472d-b10e-c40eeaf3f330: Photo # Photo
+    311941c9-857f-4574-9dc9-5342b0bc55dc: Hero # Hero
+    339874b2-8ddb-4b4a-bfa4-98d43c86d6e2: Home # Home
+    484750fa-dca6-4872-a932-c9598c45a972: 'Short Description' # Short Description
+    71640765-61fe-4815-8a72-5fd4bd3b6745: Home # Home
+    a1c5cbfa-a919-4a86-8fbd-4d8f3bb23074: Stories # Stories
+    a7c1e57a-2c01-4426-a8d4-3dad37213a8b: Slider # Slider
+    a1129d1d-11a2-4255-9be5-44c7fb1538f6: Footer # Footer
+    bd7156df-5b07-4b76-870f-150e04a37f45: Common # Common
+    bf272d68-87c8-4072-b107-2f1e911ca500: Avatar # Avatar
+    c79d4167-a621-4039-b972-318e8534bbf1: 'My Test Craft Site' # My Test Craft Site
+    c476231e-254e-4ca1-a3f1-b36b67d6e2c6: Header # Header
+    c7094571-11bc-4a2a-967f-c356d8445711: 'Riders Intro Content' # Riders Intro Content
+    ce0b57c2-6173-4c9e-81d0-98c907610d56: 'Stories Listing' # Stories Listing
+    d3ffee2c-f69a-4036-8bc9-de7576771f2f: 'Featured Story' # Featured Story
+    d55f515b-b6f2-4c9a-a303-68edee448b27: Stories # Stories
+    d71c5524-c34b-4b5a-97a0-86d1acb8ad2a: Photos # Photos
+    e613e3f9-a891-41f9-a46f-f18e37a30007: Riders # Riders
+    e68632e1-d8f1-42af-abc8-0df12801a9de: Default # Default
+    ec78442c-e7c9-4c6a-b434-9d1f9d64d7ea: 'Link Text' # Link Text
+    ee92845f-7db9-4cdb-b582-2698ddfb3c15: 'Full Name' # Full Name
+    f3f43e8f-76d2-43a0-952d-d15d2800657b: 'Nav Links' # Nav Links
+    f121205f-fde4-4b92-be59-8f673b575f7f: 'General Pages' # General Pages
+    fc7d2509-e3ec-48c0-b2be-b5d34765c806: Homepage # Homepage
+    fe993e08-6345-4715-ab76-c4bdd8919850: 'Link Destination' # Link Destination
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'My Test Craft Site'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

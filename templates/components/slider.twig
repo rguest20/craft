@@ -1,0 +1,19 @@
+<!-- Slider Component -->
+<div class="slider">
+
+    <div class="slider__nav">
+    <button type="button" class="slider__prev">
+        <img src="{{ siteUrl }}static/images/arrow-prev.svg" alt="Previous">
+    </button>
+    <button type="button" class="slider__next">
+        <img src="{{ siteUrl }}static/images/arrow-next.svg" alt="Next">
+    </button>
+    </div>
+    
+    <div class="slider__reel">
+    {% for image in photos %}
+    <img src="{{ image.getUrl('slider') }}" alt="Photo {{loop.index}}" class="slider__image">
+    {% endfor %}
+    </div>
+    
+</div>

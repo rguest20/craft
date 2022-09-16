@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'My Test Craft Site'
+primary: true
+siteGroup: 12db4a36-98b5-48e8-9013-bcef516f266a # https://tutorial.craft.site
+sortOrder: 1

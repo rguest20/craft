@@ -1,0 +1,23 @@
+{% extends "index" %}
+{% set pageTitle = entry.title %}
+
+{% set body_classes = 'inner-page' %}
+
+{% block content %}
+
+{% cache using key "general-page" %}
+    <article class="section">
+        <div class="content-column content-column--narrow">
+
+            <h1 class="centered">{{ entry.title }}</h1>
+            {% if entry.richText %}
+                {{ entry.richText }}
+            {% endif %}
+            
+        
+        </div>
+    </article>
+
+{% endcache %}
+
+{% endblock %}

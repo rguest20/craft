@@ -1,0 +1,139 @@
+field: e613e3f9-a891-41f9-a46f-f18e37a30007 # Riders
+fieldLayouts:
+  46a5811e-4453-4614-af25-590434745d36:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 670eca9f-c12f-472d-b10e-c40eeaf3f330 # Photo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 536a1eed-c988-413c-8d88-f44cc1e13eb1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ee92845f-7db9-4cdb-b582-2698ddfb3c15 # Full Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d2a64be-a85c-47d6-bdf5-489804bcecbf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d5103a9-181a-46b7-9671-3c68d6eb3efc # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41d72f02-954c-4c05-8053-cbed0e8b2a48
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aa419e2f-e16b-416e-8806-fcfd7cda255b
+        userCondition: null
+fields:
+  8d5103a9-181a-46b7-9671-3c68d6eb3efc: # Description
+    columnSuffix: rcumvxnp
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  670eca9f-c12f-472d-b10e-c40eeaf3f330: # Photo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: photo
+    instructions: null
+    name: Photo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:075b54d0-6922-43a2-ab55-b50c4e499f35' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:075b54d0-6922-43a2-ab55-b50c4e499f35' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add a photo'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:075b54d0-6922-43a2-ab55-b50c4e499f35' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ee92845f-7db9-4cdb-b582-2698ddfb3c15: # Full Name
+    columnSuffix: owcrzqgw
+    contentColumnType: text
+    fieldGroup: null
+    handle: fullName
+    instructions: null
+    name: 'Full Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: rider
+name: Rider
+sortOrder: 1
